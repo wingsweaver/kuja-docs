@@ -1,6 +1,6 @@
 # 简介
 
-<figure><img src=".gitbook/assets/kuja.png" alt="Kuja Logo"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/kuja.png" alt="Kuja Logo" style="zoom:50%;"><figcaption></figcaption></figure>
 
 `Kuja`（`库加`）是面向中小规模系统的、通用型业务和底层框架。
 
@@ -12,21 +12,21 @@
 
 ### 快速入门
 
-* [面向 Spring](quickstart/spring.md)
+* [面向 Spring](./quickstart/spring.md)
 
 
 
 ### 功能清单
 
-主要功能清单如下，具体参照：[features.md](develop/features.md "mention")。
+主要功能清单如下，具体参照：[功能清单](./develop/features.md "mention")。
 
 #### 底层框架级别
 
-| 分类   | 功能                                                                                                                                   |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 单体功能 | <ul class="contains-task-list"><li><input type="checkbox">统一错误处理（定义、抛出、捕获和处理）</li><li>返回结果（定义和补全）</li><li>业务上下文（生命周期管理和传递）</li></ul> |
-| 集群功能 | <ul class="contains-task-list"><li>全局配置 </li><li>服务注册和发现 </li><li>服务调用 </li><li>消息通知</li></ul>                                       |
-| 可观性  | <ul class="contains-task-list"><li>度量（Metrics） </li><li>跟踪（Tracing） </li><li>日志（Logging）</li></ul>                                   |
+| 分类     | 功能                                                         |
+| -------- | ------------------------------------------------------------ |
+| 单体功能 | <ul class="contains-task-list"><li>统一错误处理（定义、抛出、捕获和处理）</li><li>返回结果（定义和补全）</li><li>业务上下文（生命周期管理和传递）</li></ul> |
+| 集群功能 | <ul class="contains-task-list"><li>全局配置 </li><li>服务注册和发现 </li><li>服务调用 </li><li>消息通知</li></ul> |
+| 可观性   | <ul class="contains-task-list"><li>度量（Metrics） </li><li>跟踪（Tracing） </li><li>日志（Logging）</li></ul> |
 
 #### 中间件级别
 
@@ -82,3 +82,6 @@ Kuja 内置了以下的静态检查，贡献代码时请遵守。`人人为我�
 * Alibaba P3C 使用默认的 [阿里巴巴 Java 编码规约](https://github.com/alibaba/p3c)。
 * JavaDoc 请按照 Java 文档规范标明方法说明、参数说明、返回值说明等信息。\
   Kuja 打包过程中，会把 JavaDoc 的 warning 当成错误来处理。
+  
+
+详细的编码规约，请参照：[Kuja 编码规约]()。  
