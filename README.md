@@ -10,17 +10,17 @@
 
 
 
-### 快速入门
+## 快速入门
 
 * [面向 Spring](./quickstart/spring.md)
 
 
 
-### 功能清单
+## 功能清单
 
 主要功能清单如下，具体参照：[功能清单](./develop/features.md "mention")。
 
-#### 底层框架级别
+### 底层框架级别
 
 | 分类     | 功能                                                         |
 | -------- | ------------------------------------------------------------ |
@@ -28,22 +28,22 @@
 | 集群功能 | <ul class="contains-task-list"><li>全局配置 </li><li>服务注册和发现 </li><li>服务调用 </li><li>消息通知</li></ul> |
 | 可观性   | <ul class="contains-task-list"><li>度量（Metrics） </li><li>跟踪（Tracing） </li><li>日志（Logging）</li></ul> |
 
-#### 中间件级别
+### 中间件级别
 
 | 分类   | 功能                                                                                                                                                                                                                                        |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 服务封装 | <ul class="contains-task-list"><li><input type="checkbox">ID 生成</li><li><input type="checkbox">短信服务</li><li><input type="checkbox">对象存储服务</li><li><input type="checkbox">User-Agent 解析</li><li><input type="checkbox">IP-Geo 解析</li></ul> |
+| 服务封装 | <ul class="contains-task-list"><li>ID 生成</li><li>短信服务</li><li>对象存储服务</li><li>User-Agent 解析</li><li>IP-Geo 解析</li></ul> |
 
-#### 应用功能级别
+### 应用功能级别
 
 | 分类     | 功能                                                                                                                                                                                                                            |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DevOps | <ul class="contains-task-list"><li><input type="checkbox">综合运维平台</li><li><input type="checkbox">网关控制台</li></ul>                                                                                                               |
-| 业务功能   | <ul class="contains-task-list"><li><input type="checkbox">账户和鉴权体系</li><li><input type="checkbox">站内通知</li><li><input type="checkbox">操作记录</li><li><input type="checkbox">导出管理</li><li><input type="checkbox">通用数据管理</li></ul> |
+| DevOps | <ul class="contains-task-list"><li>综合运维平台</li><li>网关控制台</li></ul>                                                                                                               |
+| 业务功能   | <ul class="contains-task-list"><li>账户和鉴权体系</li><li>站内通知</li><li>操作记录</li><li>导出管理</li><li>通用数据管理</li></ul> |
 
 
 
-### 适用场景
+## 适用场景
 
 如上所述，Kuja 的目标是提供面向业务的通用型框架，而不是提供一套完整的业务系统。
 
@@ -55,7 +55,7 @@
 
 
 
-### 基本原则
+## 基本原则
 
 Kuja 开发中，遵循以下的基本原则。
 
@@ -66,14 +66,14 @@ Kuja 开发中，遵循以下的基本原则。
 
 
 
-### 欢迎加入
+## 欢迎加入
 
-#### Bug、反馈和建议
+### Bug、反馈和建议
 
 * [Github Issues](https://github.com/wingsweaver/kuja/issues)
 * [码云 Issues](https://gitee.com/wingsweaver/kuja/issues)
 
-#### 贡献代码
+### 贡献代码
 
 Kuja 内置了以下的静态检查，贡献代码时请遵守。`人人为我，我为人人`
 
@@ -84,4 +84,4 @@ Kuja 内置了以下的静态检查，贡献代码时请遵守。`人人为我�
   Kuja 打包过程中，会把 JavaDoc 的 warning 当成错误来处理。
   
 
-详细的编码规约，请参照：[Kuja 编码规约]()。  
+详细的编码规约，请参照：[Kuja 编码规约](./develop/coding-rules.md)。  

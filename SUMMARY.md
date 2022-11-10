@@ -8,6 +8,8 @@
 
 ## 面向 Spring <a href="#spring" id="spring"></a>
 
+* [异常的定义和处理](spring/error-handling.md)
+* [返回结果的定义和加工](spring/return-values.md)
 * [Web 应用](spring/web.md)
 
 ## 开发资料 <a href="#develop" id="develop"></a>
